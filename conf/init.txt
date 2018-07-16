@@ -92,7 +92,7 @@ You may set FPS_CAP to 0 to make it uncapped.
 
 Use this to set the maximum graphical frame refresh rate during play.
 
-[G_FPS_CAP:50]
+[G_FPS_CAP:30]
 
 On cards that support the OpenGL ARB_sync extension, turning this on can improve framerates in GPU overload conditions. It defaults to NO, as many cards that claim to support this will crash if asked to do so.
 
@@ -109,7 +109,7 @@ Change this to LINEAR if you want the texture values to be averaged over the adj
 
 Change this to make the dwarfort.exe process have a different priority.  From highest to lowest, the options are REALTIME, HIGH, ABOVE_NORMAL, NORMAL, BELOW_NORMAL and IDLE.
 
-[PRIORITY:NORMAL]
+[PRIORITY:HIGH]
 
 Use this to set how fast the game zooms.  The default corresponds to
 increasing grid size by 10 units each time you zoom.
